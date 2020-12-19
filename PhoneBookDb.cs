@@ -2,7 +2,7 @@
 
 namespace ISP_Lab15
 {
-    class PhoneBookDb : DbContext
+    public class PhoneBookDb : DbContext
     {
 
         public PhoneBookDb() : base()

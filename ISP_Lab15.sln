@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP_Lab15", "ISP_Lab15.csproj", "{940EA819-144C-4E78-91A0-C256FBBB4CD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISP_Lab15", "ISP_Lab15.csproj", "{940EA819-144C-4E78-91A0-C256FBBB4CD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab15_Tests", "Lab15_Tests\Lab15_Tests.csproj", "{3485FA9F-4592-415A-B177-9B97AC3EB1A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{940EA819-144C-4E78-91A0-C256FBBB4CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{940EA819-144C-4E78-91A0-C256FBBB4CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{940EA819-144C-4E78-91A0-C256FBBB4CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3485FA9F-4592-415A-B177-9B97AC3EB1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3485FA9F-4592-415A-B177-9B97AC3EB1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3485FA9F-4592-415A-B177-9B97AC3EB1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3485FA9F-4592-415A-B177-9B97AC3EB1A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

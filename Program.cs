@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace ISP_Lab15
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -35,14 +35,14 @@ namespace ISP_Lab15
             Console.ReadLine();
         }
 
-        private static void DeleteFirstUser(PhoneBookDb db)
+        public static void DeleteFirstUser(PhoneBookDb db)
         {
             User user = db.Users.First();
             db.Users.Remove(user);
             db.SaveChanges();
         }
 
-        private static void UpdateFirstUser(PhoneBookDb db)
+        public static void UpdateFirstUser(PhoneBookDb db)
         {
             User user = db.Users.First();
             user.Phones.RemoveAt(0);
@@ -50,7 +50,7 @@ namespace ISP_Lab15
             db.SaveChanges();
         }
 
-        private static void CreateUsers(PhoneBookDb db)
+        public static void CreateUsers(PhoneBookDb db)
         {
             User user1 = new User()
             {
